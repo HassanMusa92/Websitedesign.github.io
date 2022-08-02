@@ -1,0 +1,386 @@
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+}
+/* Website Design heading */
+
+.main-heading {
+  background-image: url("../images/stars-ge2b55a8af_1920.jpg");
+  text-align: center;
+  font-size: 100px;
+  position: relative;
+  box-sizing: border-box;
+  padding: 50px 0;
+  margin: 30px 0px 30px 0px;
+  color: white;
+  top: 40px;
+}
+/* h2*/
+.colour h2{
+  font-size: 50px;
+  margin: 10px;
+  color: white;
+}
+
+/* navigation */
+
+.navigation{
+  position: fixed;
+  top: 0%;
+  background-color: rgb(100, 100, 100);
+  opacity: 0.95;
+  width: 100%;
+  color: white;
+  z-index: 1;
+} 
+
+.navigation ul{
+  text-align: left;
+  padding: 10px;
+  text-align: left;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: white;
+}
+
+.navigation li{
+  display: inline-block;
+  color: white;
+}
+
+.navigation li+li::before{
+  content: "|";
+}
+
+.navigation a{
+  color: white;
+}
+.navigation a:hover {
+  text-decoration: none;
+}
+
+.navigation a:active {
+  color: yellow;
+}
+/* Colour Section*/
+#colour {
+  text-align: center;
+  position: relative;
+  padding: 20px;
+  background-color: rgb(100, 100, 100);
+  box-sizing: border-box;
+}
+
+.colour .aqua{
+  background-color:  aquamarine;
+  border: 1px solid white;
+  padding: 30px 50px;
+  width: 30%;
+  height: 100px;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  margin: 20px;
+}
+
+.colour .aqua:hover{
+  background-color: white;
+  color: aquamarine;
+  border-color: aquamarine;
+}
+
+.colour .blue{
+ background-color: midnightblue;
+  border: 1px solid white;
+  padding: 30px 50px;
+  width: 30%;
+  height: 100px;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  margin: 20px;
+}
+
+.colour .blue:hover{
+  background-color: white;
+  color: midnightblue;
+  border-color: midnightblue;
+}
+
+.colour .red {
+  background-color: lightcoral;
+  border: 1px solid white;
+  padding: 30px 50px;
+  width: 30%;
+  height: 100px;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  margin: 20px;
+}
+
+.colour .red:hover{
+  background-color: white;
+  color: lightcoral;
+  border-color: lightcoral;
+}
+
+.colour .green {
+  background-color: palegreen;
+  border: 1px solid white;
+  padding: 30px 50px;
+  width: 30%;
+  height: 100px;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  margin: 20px;
+}
+
+.colour .green:hover{
+  background-color: white;
+  color: palegreen;
+  border-color: palegreen;
+}
+
+/*fonts section*/
+#font {
+  text-align: center;
+  position: relative;
+  padding: 20px;
+  background-color: white;
+  box-sizing: content-box;
+}
+
+.font h2 {
+  font-size: 50px;
+  margin: 10px;
+  color: rgb(100, 100, 100);
+  text-align: center;
+}
+
+.font-panel {
+  width: 30%;
+  display: inline-block;
+  line-height: 30px;
+  text-align: center;
+  color: rgb(100, 100, 100);
+}
+
+.font-label {
+font-size: 25px;
+text-decoration: underline;
+}
+
+.roboto {
+  font-family: 'Roboto', monospace, sans-serif;
+}
+
+.eb {
+  font-family: 'EB Garamond', monospace, sans-serif;
+}
+
+.fira {
+  font-family: 'Fira Sans Condensed', monospace, sans-serif;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.regular {
+  font-style: normal;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+
+/*text styles section*/
+
+#text-style {
+  text-align: left;
+  position: relative;
+  padding: 20px;
+  background-color: rgb(100, 100, 100);
+  box-sizing: border-box;
+  color: white;
+  display: block;
+}
+
+.text-style .h2 {
+  font-size: 50px;
+  margin: 10px;
+  color: white;
+  text-align: center;
+}
+
+.text-heading h1 {
+  font-weight: 700;
+  font-size: 35px;
+  font-family: monospace;
+}
+
+.text-sub h2{
+  font-weight: 500;
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.text-sub ul {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.text-paragraph {
+  font-weight: 400;
+  font-size: 14px;
+  font-family: 'Lucida Sans', Verdana, sans-serif;
+}
+
+/* button section */
+
+.buttons h2 {
+  font-size: 50px;
+  margin: 10px;
+  text-align: center;
+  color: rgb(100, 100, 100);
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 400px;
+    font-family: monospace, sans-serif;
+  }
+  
+  .button {
+    height: 50px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+  .Skeuomorphism {
+    border: 2px solid #0c960c;
+    border-radius: 5px;
+    color: #F8F8F8;
+    text-shadow: 0 -2px #006bb3;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2), 0px -2px 2px rgba(255, 255, 255, 0.5) inset, 0 2px 2px rgba(255, 255, 255, 0.8) inset;
+    background: #1D1;
+    background: linear-gradient(#1D1, #0ebc0e);
+    text-shadow: 0 -2px #0c960c;
+    
+  }
+  
+  .Skeuomorphism:hover {
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1), 0px -2px 2px rgba(255, 255, 255, 0.25) inset, 0 2px 2px rgba(255, 255, 255, 0.4) inset;
+    background: #0ebc0e;
+    background: linear-gradient(#0ebc0e, #0c960c);
+    border-color: #064f06;
+  }
+  
+  .Skeuomorphism:active {
+    margin-top: 2px;
+    margin-bottom: -2px;
+    box-shadow: 0px 2px 2px rgba(63, 63, 63, 0.1), 0px -2px 2px rgba(255, 255, 255, 0.25) inset, 0 2px 2px rgba(255, 255, 255, 0.4) inset;
+    background: #0c960c;
+    background: linear-gradient(#0c960c, #0ebc0e);
+  }
+  
+  .Flat {
+    background-color: rgb(0, 140, 255);
+    color: #fff;
+    border: 2px solid rgb(0, 110, 255);
+    border-radius: 10px;
+  }
+  
+  .Flat:hover {
+    background-color: #0c31969c;
+    transition: background-color .15s, font-size .15s;
+    font-size: 18px;
+  }
+  
+  .Flat:active {
+    border-color: #fff;
+  }
+
+  .skeu {
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 5px 5px;
+    background-color: aquamarine;
+  }
+   
+  .skeu:hover {
+    cursor: pointer;
+  }
+   
+  .skeu:active {
+    margin-top: 5px;
+    color: black;
+    box-shadow: 0px 0px;
+  }
+  
+  .fl {
+    color: #61bff9;
+    cursor: pointer;
+    background-color: rgb(150, 150, 150);
+    border: 2px solid rgb(100, 100, 100);
+    border-radius: 50px;
+  }
+  
+  .fl:hover {
+    background-color: white;
+    border: 1px solid rgb(100, 100, 100);
+    color: rgb(140, 0, 255);
+  }
+  .fl a:hover{
+    color: rgb(100, 100, 100);
+  }
+  
+  .fl:active {
+    border-color: red;
+  }
+
+  footer{
+    text-align: center;
+    background-color: rgb(100, 100, 100);
+    color: white;
+  }
+
+
+
+/* Button Section
+#button{
+  text-align: left;
+  position: relative;
+  padding: 20px;
+  box-sizing: border-box;
+  color: black;
+  display: block;
+}
+
+.button {
+  height: 50px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+  */
